@@ -16,4 +16,4 @@ ENV PATH=$HOME/gems/bin:$PATH
 RUN gem install jekyll bundler
 RUN git config --global user.name "ChaehyeonSong" && \
 git config --global user.email "colin13053@gmail.com" && \
-# git config --global --add safe.directory /blog
+git config --global --add safe.directory /blog
